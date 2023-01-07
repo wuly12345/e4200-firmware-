@@ -18,3 +18,4 @@
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld
 #sed -i '$a src-link custom /usr/src/openwrt/custom-feed
 #sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
